@@ -1,0 +1,5 @@
+HUGO_VERSION = "0.74.2"
+baseURL = "https://jr-poc.netlify.app"
+languageCode = "en-gb"
+theme = "jumpingRivers"
+title = "Jumping Rivers - Data Science Training"

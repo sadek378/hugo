@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jumping Rivers - Data Science Training</title>
+    <link>https://jr-poc.netlify.app/</link>
+    <description>Recent content on Jumping Rivers - Data Science Training</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    
+	<atom:link href="https://jr-poc.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Git for me</title>
+      <link>https://jr-poc.netlify.app/courses/git-for-me/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jr-poc.netlify.app/courses/git-for-me/</guid>
+      <description>A one day introduction to Git with RStudio. When working on data analysis projects version control is essential. Even on small projects, tracking the progress of your project’s code-base has many advantages and makes collaboration much easier. Fortunately it is now easier than ever before to integrate version control into your project, using RStudio’s interface to the version control software git and online code sharing websites such as GitHub.
+The course will introduce attendees to the basics of version control with Git.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to R</title>
+      <link>https://jr-poc.netlify.app/courses/introduction-to-r/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jr-poc.netlify.app/courses/introduction-to-r/</guid>
+      <description>This is a one-day intensive course on R and assumes no prior knowledge. By the end of the course, participants will be able to import, summarise and plot their data. At each step, we avoid using &amp;ldquo;magic code&amp;rdquo;, and stress the importance of understanding what R is doing.</description>
+    </item>
+    
+  </channel>
+</rss>

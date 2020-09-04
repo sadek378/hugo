@@ -1,0 +1,135 @@
+{{ partial "head.html" . }} {{ partial "header.html" . }}
+<!-- training section start -->
+
+<div class="training">
+  <h1>Training Course Details</h1>
+  <div class="training-mid">
+    <div class="training-left">
+      <img src="../../images/tr.jpg" alt="" />
+    </div>
+    <div class="training-right">
+      <h1>{{ .Title }}</h1>
+      <h3>Course Level: Foundation</h3>
+      {{ .Content }}
+    </div>
+  </div>
+</div>
+
+<div class="training-link">
+  <div class="training-link-mid">
+    <div class="training-link-box">
+      <a href="#">View our full training course calendar »</a>
+      <a href="#">Ask about our On-line Training »</a>
+      <a href="#">Ask about our On-Site Training »</a>
+    </div>
+  </div>
+</div>
+
+<!-- training section end -->
+
+<!-- schedule section start -->
+
+<div class="schedule">
+  <div class="schedule-mid">
+    <div class="schedule-left">
+      <h1>No Events Currently Scheduled</h1>
+      <p>
+        Sorry, there are no upcoming events for this course, but please get in
+        touch if you would like to be kept informed when events are scheduled in
+        the future.
+      </p>
+      <a href="#">View our full training course calendar >></a>
+    </div>
+    <div class="schedule-right">
+      <div class="button">
+        <a href="#">Request on-site training details</a>
+        <a href="#">Request on-line training details</a>
+        <a href="#">View all training courses</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- schedule section end -->
+
+<!-- course section start -->
+
+<div class="course">
+  <div class="course-mid">
+    <h1>Course Details</h1>
+    <div class="tabs-section">
+      <ul>
+        <li class="active"><a href="#outline">Course Outline</a></li>
+        <li><a href="#outcome">Learning Outcomes</a></li>
+        <li><a href="#material">Materials</a></li>
+        <li><a href="#knowledge">Prior Knowledge</a></li>
+      </ul>
+
+      <div id="outline">
+        <ul>
+          {{ range $point := .Params.courseoutline }} {{ $val := $point }}
+          <li>{{ $val }}</li>
+          {{ end }}
+        </ul>
+        <p>
+          <a href="#">View course PDF <i class="fa fa-external-link"></i></a>
+        </p>
+      </div>
+      <div id="outcome">
+        <p>By the end of the day participants will be able to…</p>
+
+        <ul>
+          {{ range $point := .Params.courseoutcomes }} {{ $val := $point }}
+          <li>{{ $val }}</li>
+          {{ end }}
+        </ul>
+      </div>
+      <div id="material">
+        <ul>
+          <a href="../../images/tabs1.png"
+            ><li><img src="../../images/tabs1.png" alt="" /></li
+          ></a>
+          <a href="../../images/tabs2.png"
+            ><li><img src="../../images/tabs2.png" alt="" /></li
+          ></a>
+          <a href="../../images/tabs3.png"
+            ><li><img src="../../images/tabs3.png" alt="" /></li
+          ></a>
+          <a href="../../images/tabs4.png"
+            ><li><img src="../../images/tabs4.png" alt="" /></li
+          ></a>
+        </ul>
+      </div>
+      <div id="knowledge">
+        <p>
+          No prior programming knowledge of any kind is assumed. This course is
+          suitable for all fields of work. Previous attendees include
+          biologists, statisticians, accountants, engineers & students, i.e.,
+          anyone who uses a spreadsheet! Participants should bring a laptop.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- course section end -->
+
+<!-- feedback start Section  -->
+
+<div class="feedback">
+  <div class="feedback-mid">
+    <h1>Attendee Feedback</h1>
+    <ul>
+      <li>
+        Clear explanations; combination of theory and practice is excellent.
+      </li>
+      <li>Good pace, good split of practical and lecture.</li>
+      <li>Excellent introduction to R!</li>
+      <li>Nice friendly environment.</li>
+      <li>Almost one to one! Great teaching, good lectures.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- feedback start end  -->
+{{ partial "footer.html" . }}

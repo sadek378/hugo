@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rstudio on Jumping Rivers - Data Science Training</title>
+    <link>https://jr-poc.netlify.app/rstudio/</link>
+    <description>Recent content in Rstudio on Jumping Rivers - Data Science Training</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    
+	<atom:link href="https://jr-poc.netlify.app/rstudio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

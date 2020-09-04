@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://jr-poc.netlify.app/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jr-poc.netlify.app/blog/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jr-poc.netlify.app/cart/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jr-poc.netlify.app/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jr-poc.netlify.app/community/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jr-poc.netlify.app/consultancy/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jr-poc.netlify.app/courses/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jr-poc.netlify.app/datascience/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jr-poc.netlify.app/courses/git-for-me/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jr-poc.netlify.app/courses/introduction-to-r/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jr-poc.netlify.app/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jr-poc.netlify.app/rstudio/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jr-poc.netlify.app/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jr-poc.netlify.app/training/</loc>
+  </url>
+  
+</urlset>

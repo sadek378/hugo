@@ -1,0 +1,104 @@
+{{ partial "head.html" . }} {{ partial "header.html" . }}
+
+<!-- Booking start section -->
+
+<div class="booking">
+  <div class="booking-mid">
+    <div class="booking-heading">
+      <h1 id="cart">Your booking details</h1>
+    </div>
+
+    <div class="cart-section">
+      <div class="cart-sec numone">
+        <ul class="listone">
+          <li>0</li>
+          <li>Course Details</li>
+        </ul>
+      </div>
+
+      <div class="cart-sec numtwo">
+        <ul class="listtwo">
+          <li>Course Price</li>
+          <li>Participants</li>
+          <li>Total</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- <div class="cart-section2">
+				<div class="cart-sec2 numone2">
+					<ul class="listone2">
+						<li><i class="fa fa-times"></i></li>
+						<li>Git For Me - Online - September 9, 2020</li>
+					</ul>
+				</div>
+	
+				<div class="cart-sec2 numtwo2">
+					<ul class="listtwo2">
+						<li>£250.00</li>
+						<li><input type="number" value="1"></li>
+						<li class="amount">£250.00</li>
+					</ul>
+				</div>
+			</div> -->
+
+    <div class="cart-section3">
+      <a href="#">Update cart</a>
+    </div>
+
+    <div class="sub">
+      <div class="sub-sec">
+        <div class="sub-section">
+          <p>Subtotal</p>
+          <p><span id="subtotal">£250.00</span> <span>ex VAT</span></p>
+        </div>
+
+        <div class="sub-section" id="totalDiv">
+          <p>Total</p>
+          <p><span id="total">£250.00</span> <span>ex VAT</span></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="book-link">
+      <ul>
+        <li><a href="#"> Book Another Course </a></li>
+        <li><a href="#"> Proceed to Booking Confirmation </a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="button">
+  <div class="button-mid">
+    <p><i class="fa fa-sticky-note"></i> There are no courses in your cart</p>
+    <a href="index.html"> Back to courses </a>
+  </div>
+</div>
+
+<!-- Booking end section -->
+
+<!--  Trusted by start section  -->
+
+<div class="trust">
+  <div class="trust-mid">
+    <h1>TRUSTED BY</h1>
+    <hr />
+    <div class="slider">
+      <img src="/images/s1.jpg" alt="" />
+      <img src="/images/s2.jpg" alt="" />
+      <img src="/images/s3.jpg" alt="" />
+      <img src="/images/s4.jpg" alt="" />
+      <img src="/images/s5.jpg" alt="" />
+      <img src="/images/s6.jpg" alt="" />
+      <img src="/images/s7.jpg" alt="" />
+      <img src="/images/s8.jpg" alt="" />
+      <img src="/images/s9.jpg" alt="" />
+      <img src="/images/s10.jpg" alt="" />
+      <img src="/images/s11.jpg" alt="" />
+      <img src="/images/s12.jpg" alt="" />
+    </div>
+  </div>
+</div>
+
+<!--  Trusted by end section  -->
+{{ partial "footer.html" . }}

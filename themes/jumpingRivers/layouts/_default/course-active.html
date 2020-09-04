@@ -1,0 +1,165 @@
+{{ partial "head.html" . }} {{ partial "header.html" . }}
+<!-- training section start -->
+
+<div class="training">
+  <h1>Training Course Details</h1>
+  <div class="training-mid">
+    <div class="training-left">
+        <img{{ with .Params.featured_image }} src="{{ . }}"{{ end }} alt="{{ .Title }}">
+    </div>
+    <div class="training-right">
+      <h1>{{ .Title }}</h1>
+      <h3>Course Level: Foundation</h3>
+      {{ .Content }}
+    </div>
+  </div>
+</div>
+
+<div class="training-link">
+  <div class="training-link-mid">
+    <div class="training-link-box">
+      <a href="#">View our full training course calendar »</a>
+      <a href="#">Ask about our On-line Training »</a>
+      <a href="#">Ask about our On-Site Training »</a>
+    </div>
+  </div>
+</div>
+
+<!-- training section end -->
+
+<!-- Online start section -->
+
+<div class="online">
+  <div class="online-mid">
+    <div class="online-section">
+      <div class="online-sec">
+        <h1>Online | September 9, 2020</h1>
+
+        <div class="online-price">
+          <div class="price one">
+            <p>Price:</p>
+            <p class="para">Venue Details:</p>
+            <p>Date:</p>
+            <p>Time:</p>
+            <p>Duration:</p>
+          </div>
+
+          <div class="price two">
+            <p>£250.00 ex VAT per person</p>
+            <p>This will be hosted on Zoom video conferencing</p>
+            <p>September 9, 2020</p>
+            <p>1.30 pm - 5.00 pm</p>
+            <p>2 half days</p>
+          </div>
+        </div>
+
+        <p class="on-para">
+          This course will take place, from 1:30pm - 5pm, on the 9th & 10th of
+          September
+        </p>
+      </div>
+
+      <div class="online-sec">
+        <p>Select if you qualify for a discount</p>
+        <p>
+          <input id="check" type="checkbox" /><label for="check"
+            >Academic / Student Discount (-25%)</label
+          >
+        </p>
+        <p>
+          <input type="number" value="1" /><label for="">Participant(s)</label>
+        </p>
+
+        <div class="online-links">
+          <a id="booking" href="/cart/">Add Booking</a>
+          <a href="#">Add All Courses in this Series</a>
+          <a href="#">Ask For More Details About This Course</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Online end section -->
+
+<!-- course section start -->
+
+<div class="course">
+  <div class="course-mid">
+    <h1>Course Details</h1>
+    <div class="tabs-section">
+      <ul>
+        <li class="active"><a href="#outline">Course Outline</a></li>
+        <li><a href="#outcome">Learning Outcomes</a></li>
+        <li><a href="#material">Materials</a></li>
+        <li><a href="#knowledge">Prior Knowledge</a></li>
+      </ul>
+
+      <div id="outline">
+        <ul>
+          {{ range $point := .Params.courseoutcomes }} {{ $val := $point }}
+          <li>{{ $val }}</li>
+          {{ end }}
+        </ul>
+        <p>
+          <a href="#">View course PDF <i class="fa fa-external-link"></i></a>
+        </p>
+      </div>
+      <div id="outcome">
+        <p>By the end of the day participants will be able to…</p>
+
+        <ul>
+          {{ range $point := .Params.priorknowledge }} {{ $val := $point }}
+          <li>{{ $val }}</li>
+          {{ end }}
+        </ul>
+      </div>
+      <div id="material">
+        <ul>
+          <a href="../../images/tabs1.png"
+            ><li><img src="../../images/tabs1.png" alt="" /></li
+          ></a>
+          <a href="../../images/tabs2.png"
+            ><li><img src="../../images/tabs2.png" alt="" /></li
+          ></a>
+          <a href="../../images/tabs3.png"
+            ><li><img src="../../images/tabs3.png" alt="" /></li
+          ></a>
+          <a href="../../images/tabs4.png"
+            ><li><img src="../../images/tabs4.png" alt="" /></li
+          ></a>
+        </ul>
+      </div>
+      <div id="knowledge">
+        <p>
+          No prior programming knowledge of any kind is assumed. This course is
+          suitable for all fields of work. Previous attendees include
+          biologists, statisticians, accountants, engineers & students, i.e.,
+          anyone who uses a spreadsheet! Participants should bring a laptop.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- course section end -->
+
+<!-- feedback start Section  -->
+
+<div class="feedback">
+  <div class="feedback-mid">
+    <h1>Attendee Feedback</h1>
+    <ul>
+      <li>
+        Clear explanations; combination of theory and practice is excellent.
+      </li>
+      <li>Good pace, good split of practical and lecture.</li>
+      <li>Excellent introduction to R!</li>
+      <li>Nice friendly environment.</li>
+      <li>Almost one to one! Great teaching, good lectures.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- feedback start end  -->
+{{ partial "footer.html" . }}
